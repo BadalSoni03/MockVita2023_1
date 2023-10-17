@@ -2,8 +2,8 @@
 
 Problem A is simply sorting and implementation
 
-Problem B is purely implementation
+Problem C is purely implementation
 
 Problem D is a dp and priority queue problem
 
-Not able to solve C (heavy implementation)
+Not able to solve b (heavy implementation)

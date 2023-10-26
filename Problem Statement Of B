@@ -1,0 +1,59 @@
+Problem Description
+John is working in high security organization, where he needs to deal with lot of confidential documents. He must encrypt the important number in documents. Please help John to write a program where the system should identify the integer number and encrypt number based on John’s actions.
+
+John’s actions are as follows
+
+Actions	Denoted by	Remarks
+Right arrow	R	Move to next character
+Left arrow	T	Move to previous character
+Up arrow	L	Increment the integer by one
+Down arrow	D	Decrement the integer by one
+Swap	Sn	Swap the current position with number in the nth position
+These actions are governed by the rules mentioned below.
+
+Rules
+
+Initial position is at the first character of the string comprised of numbers.
+When incrementing the value of a number at a current location, if the number is 9 then it remains 9 else it increases by 1.
+When decrementing the value of a number at a current location, if the number is 0 then it remains O else it decreases by 1.
+Once all the actions from the action string are consumed, if any part of the input string remained unprocessed then leave those characters of the input string as they are.
+Constraints
+0 <n<= I where I is length of the input string.
+
+Input
+First line contains a string comprising of numbers. This is referred to as input string in the rest of the document.
+Second line contains the actions denoted by values mentioned in the table above. This is referred to as action string in the rest of the document.
+
+Output
+Single string comprising of numbers.
+
+Time Limit (secs)
+1
+
+Examples
+
+Input
+123456
+RLTDRRTRS2S1
+
+Output
+244156
+
+Explanation
+
+Initial string: 123456
+
+Action: RLTDRRTRS2S1
+
+R: 1[2]3456
+L: [1]23456
+T: [2]23456
+D: [1]23456
+R: 1[2]3456
+R: 12[3]456
+T:12[4]456
+R: 124[4]56
+S2: 144[2]56
+S1: 244[1]56
+
+output string.

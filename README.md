@@ -2,8 +2,10 @@
 
 Problem A is simply sorting + implementation
 
-Problem B is observation + implementation + math
+Problem E is observation + implementation + math
 
 Problem C is purely implementation
 
 Problem D is a dp + priority queue problem
+
+Not able to solve B. 

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #pragma GCC optimize("Ofast")
 
-#define endl '\n'
+#define endl '\n' 
 #define nl << endl
 #define sp << " "
 #define lend cout << endl;
